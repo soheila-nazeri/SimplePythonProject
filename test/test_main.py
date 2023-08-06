@@ -4,9 +4,14 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from main import hello_world
+from main import hello_world, hello_Goodby
 
 
 def test_hello_world():
     result = hello_world()
     assert result == "Hello, World!"
+
+
+def test_hello_Goodby():
+    result = hello_world()
+    assert result == "Goodby, World!"

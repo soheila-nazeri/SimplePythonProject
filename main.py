@@ -2,6 +2,10 @@ def hello_world():
     return "Hello, World!"
 
 
+def Goodby_world():
+    return "Goodby, World!"
+
+
 def calculate_average(numbers):
     if not numbers:
         return 0

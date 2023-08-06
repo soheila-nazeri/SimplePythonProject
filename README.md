@@ -9,8 +9,8 @@ The project consists of the following files and directories:
 
 - `main.py`: The main Python script containing the `hello_world` function.
 - `test/`: Directory containing test files.
-    - `test_main.py`: Test file for the `hello_world` function.
-    - `test1_main.py`: Test file for the `calculate_average` function.
+    - `test_main.py`: Test file for the `hello_world,Goodby_World` function.
+    - `test1_main.py`: Test file for the `calculate_average,find_largest_element` function.
 
 ## Getting Started
 
