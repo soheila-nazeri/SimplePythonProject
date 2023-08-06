@@ -24,4 +24,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests
-        run: pytest test/test_main.py # Specify the full path to your test file
+        run: pytest test # Run all test files in the "test" directory
