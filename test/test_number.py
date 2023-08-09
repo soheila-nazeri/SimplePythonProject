@@ -46,3 +46,8 @@ def test_calculate_average_multiple_elements():
 def test_calculate_average_negative_elements():
     result = calculate_average([-1, -2, -3, -4, -5])
     assert result == -3.0
+
+
+def test_calculate_average_negative_elements_01():
+    result = calculate_average([-1, -2, -3, -4, -5])
+    assert result == -3.0
