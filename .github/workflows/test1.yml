@@ -9,4 +9,5 @@ jobs:
     steps:
       - continue-on-error: ${{ fromJSON(env.continue) }}
         timeout-minutes: ${{ fromJSON(env.time) }}
-        run: echo "hello system"
+        run: echo "hello system" 
+             echo ${{ github.action_path }}
